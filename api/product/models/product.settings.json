@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "products",
   "info": {
-    "name": "Product",
+    "name": "product",
     "description": ""
   },
   "options": {
@@ -20,7 +20,10 @@
     },
     "status": {
       "type": "enumeration",
-      "enum": ["Available", "Unavailable"],
+      "enum": [
+        "Available",
+        "Unavailable"
+      ],
       "default": "Available"
     },
     "price": {
